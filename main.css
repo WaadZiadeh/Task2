@@ -1,0 +1,153 @@
+.bar {
+    display: flex; /* to make the words nesxt to logo in horizontal*/ 
+    align-items: center; /*to make the words in center*/
+   background-color: #015081;  
+}
+
+.logo {margin-left: 20px;}
+.list {
+    list-style: none; /*to hide the dots*/
+    display: flex; /*to make the words in horizontal*/
+   
+}
+
+.list a {
+    color: rgb(242, 242, 246);
+    margin-left: 100px;
+} 
+.Byellow{
+    display: flex;
+    margin-left: 100px; 
+}
+
+    .Byellow button {
+        background-color: #EDA518; /* Yellow color */
+        color: #fff;
+        border: none;
+        border-radius: 5px; /*  rounded corners */
+        padding: 10px 20px; /* Adds padding inside the button */
+        margin-left: 10px; /* Space between buttons */
+       
+        margin-left: 50px; 
+    }
+
+.header    {
+    background-image: url(images/header33.jpg);
+   background-size: cover;
+   border: #015081;
+   height: 500px;
+   width: 1495px;
+  
+   }
+   .header h1{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    right: 20px;
+    color: #21086d;
+    
+  }
+section .T1{
+    color: #3A90CF;
+    margin-left: 15%;
+}
+section .p{
+    margin-right: 20%;
+    margin-left: 5%;
+}
+.P11 {
+    display: flex;
+    justify-content: space-between; /* Paragraph on left, image and button on right */
+    align-items: flex-start; /* Align items to the top */
+    padding: 30px;
+    background-color: #008F90;
+}
+
+.image-button1 {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center items horizontally */
+    margin-left: 20px; /* Adjust margin if needed */
+}
+
+
+.image-button1 button {
+    margin-top: 10px; /* Adjust space between image and button */
+}
+
+.Byelloww {
+    padding: 10px 20px;
+    background-color:#EDA518; /* Yellow color */
+    color: white; /* Make the text white */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+  
+    text-align: center;
+}
+.butt {
+    display: flex;
+    justify-content: center; /* Horizontally centers the button */
+    align-items: center; /* Vertically centers the button */
+
+}
+.book{
+    padding: 10px 20px;
+    background-color:#EDA518; /* Yellow color */
+    color: white; /* Make the text white */
+    border: none;
+    border-radius: 100px; /* Rounded corners */
+}
+
+.photo {
+    display: flex;
+    gap: 10px; 
+    justify-content: center; 
+    padding: 10px;
+    border-radius: 10px; 
+    
+}
+
+.photo1, .photo2 {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to the next line */
+    gap: 10px; /* Space between images */
+    width: 400px; /* Fixed width */
+}
+
+.photo1 img, .photo2 img {
+    width: calc(33.33% - 10px);
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Round the corners of the border */
+}
+
+.middle{
+    margin-top: 20px;
+}
+.div1{
+background-color: #CBBD93;
+   }
+   .div2{
+    background-color: #b39a50;
+       }
+       .div3{
+        background-color: #CBBD93;
+           }
+
+
+
+     .detailsP{
+        background-color:#74b3ce83 ;
+        margin-right: 40%;
+     }   
+     .detailsP2{
+        background-color:#74b3ce83 ;
+        margin-left: 40%;
+     }      
+     .img{
+        margin-left: 40%;
+     }
+
+     .body{
+        background-image: url(images/back.jpg);
+        mask-repeat: no-repeat;
+     }
